@@ -77,7 +77,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
         else if sender.selectedSegmentIndex == 1 {
             setAnnotation(latitudeValue: 37.751853, longitudeValue: 128.87605740000004, delta: 1, title: "한국폴리텍대학 강릉캠퍼스", subtitle: "강원도 강릉시 남삼초교길 121")
-            self.lblLocationinfo1.text = "보고 있는 위치"
+            self.lblLocationinfo1.text = "Location is"
             self.lblLocationinfo2.text = "한국폴리텍대학 강릉캠퍼스"
         }
         
