@@ -1,4 +1,4 @@
-//
+ //
 //  SignupViewController.swift
 //  Project
 //
@@ -43,17 +43,29 @@ class SignupViewController: UIViewController {
         Utilities.styleFilledButton(SignUpButton)
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // Check the fields and validate that the data is correct. If everithing is correct, this method returns nil. Otherwise, it returns the error message
+    func valdateFields() -> String? {
+        
+        // Check that all fields are filled in
+        if FirstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || LastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            EmailTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            PasswordTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" {
+            
+            return "Please fill in all fields"
+        }
+        
+        // Check if the password is secure
+        
+        return nil
     }
-    */
 
     @IBAction func SignUpTapped(_ sender: Any) {
+        
+        // Validate the fields
+        
+        // Create the user
+        
+        // Transition to the home screen
     }
     
     
