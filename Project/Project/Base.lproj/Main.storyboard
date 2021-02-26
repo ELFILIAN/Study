@@ -145,7 +145,7 @@
                         <outlet property="FirstNameTextField" destination="Ree-Dx-OQ9" id="KpZ-sC-iuR"/>
                         <outlet property="LastNameTextField" destination="UPe-oE-O2h" id="CkY-d4-ofk"/>
                         <outlet property="PasswordTextField" destination="oRz-8Q-3Cp" id="31y-6D-ObD"/>
-                        <outlet property="SignUpButton" destination="t8a-7W-waB" id="flw-cU-v9R"/>
+                        <outlet property="SignUpButton" destination="t8a-7W-waB" id="qzB-I5-hL9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XbR-rO-5D8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -207,10 +207,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="2gt-5e-xCR"/>
                     <connections>
+                        <outlet property="EmailTextField" destination="qnN-rp-eb1" id="SRW-Cv-PPX"/>
                         <outlet property="ErrorLable" destination="X4I-yu-FKs" id="bh7-UW-Frc"/>
-                        <outlet property="FirstNameTextField" destination="qnN-rp-eb1" id="Nbv-my-0Q5"/>
-                        <outlet property="LastNameTextField" destination="i24-5p-eZn" id="lFA-IU-XOz"/>
                         <outlet property="LoginButton" destination="qJn-Hh-XYw" id="pKe-Ew-BdL"/>
+                        <outlet property="PasswordTextField" destination="i24-5p-eZn" id="bjN-uh-FcS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LGw-Oh-fTV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

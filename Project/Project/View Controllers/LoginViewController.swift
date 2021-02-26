@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
 
-    @IBOutlet var FirstNameTextField: UITextField!
+    @IBOutlet var EmailTextField: UITextField!
     
-    @IBOutlet var LastNameTextField: UITextField!
+    @IBOutlet var PasswordTextField: UITextField!
     
     @IBOutlet var LoginButton: UIButton!
     
@@ -31,8 +32,8 @@ class LoginViewController: UIViewController {
         
         
         // Style the elements
-        Utilities.styleTextField(FirstNameTextField)
-        Utilities.styleTextField(LastNameTextField)
+        Utilities.styleTextField(EmailTextField)
+        Utilities.styleTextField(PasswordTextField)
         Utilities.styleFilledButton(LoginButton)
         
     }
@@ -49,5 +50,11 @@ class LoginViewController: UIViewController {
     */
 
     @IBAction func LoginTapped(_ sender: Any) {
+        
+        // Validate Text Fields
+        
+        // Signing in the user
+        //Auth.auth().signIn(with: <#T##AuthCredential#>, completion: <#T##((AuthDataResult?, Error?) -> Void)?##((AuthDataResult?, Error?) -> Void)?##(AuthDataResult?, Error?) -> Void#>)
+        
     }
 }
